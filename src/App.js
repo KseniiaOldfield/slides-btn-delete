@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { data } from './data';
 import './App.css';
+import Giftsbox from './Giftsbox';
+
 
 function App() {
   const [countries, setCountries] = useState(0);
@@ -41,6 +43,9 @@ function App() {
         <div className='btn'>
           <button onClick={nextCountry}> Next </button>
         </div>
+      </div>
+      <div className = 'flex'>
+      < Giftsbox />
       </div>
     </div>);
 }
