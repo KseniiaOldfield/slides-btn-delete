@@ -15,7 +15,6 @@ function Giftsbox() {
         
         const removeGift = (id) => {
           let newGifts = gifts.filter(gift => gift.id !== id);
-          console.log(newGifts);
           setGifts(newGifts)
         }
         return(
