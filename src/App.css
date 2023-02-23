@@ -25,6 +25,7 @@ button {
   background-color: rgb(157, 246, 61);
   border: none;
   border-radius: 10px;
+  margin: 10px;
 }
 .photo {
   border-radius: 10px;
@@ -50,4 +51,8 @@ button {
   flex-direction: row;
   align-items: center;
   width: 100%;
+}
+
+img {
+  margin: 10px;
 }
